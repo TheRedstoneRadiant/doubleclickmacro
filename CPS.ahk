@@ -111,7 +111,7 @@ else if ErrorLevel
 return
 ; script on mode end
 
-esc::exitapp
+; esc::exitapp
 
 start:
 {
