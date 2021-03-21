@@ -4,3 +4,6 @@
 
 
 https://www.virustotal.com/gui/file/437026a55a6c5dec310fae4f4f3032069a719321e2f91d76b181ebb7de28bea0/detection
+
+
+I have created this in order to fake having a double clicking mouse, specifically in Minecraft PVP where people often have them. This is a cost-free way to get one. I have made this in the programming language AutoHotkey and you may compile it yourself if that's what you prefer. Goodluck.
