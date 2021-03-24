@@ -12,3 +12,24 @@ I have created this in order to fake having a double clicking mouse, specificall
 
 ![image](https://user-images.githubusercontent.com/76220359/112241043-e2b01f00-8c1f-11eb-99fa-e1dd14ded37e.png)
 
+
+
+
+
+
+
+If you are not getting many double clicks, try increasing the register value from 0.12 to 0.15 and so on.
+
+Similarly, if you have to hold the mouse button for too long in order for it to register as a hold, try lowering it to 0.11.
+
+These settings vary depending on mouse model and input lag.
+
+The randomizer by default runs a random number from 1 to 3, where if the number is 1 or 2, you get a double click. And vice versa for single clicks.
+
+You can adjust this to your preference. (Default is 66% chance.)
+
+The CPS cap depends on your RAW clicks (Physical clicks)
+
+After reaching the cap, your clicks are sent normally until you get under the cap again.
+
+A cap of 8 will likely result at 12 to 15 cps.
