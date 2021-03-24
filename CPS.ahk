@@ -1,4 +1,4 @@
-﻿#NoEnv
+#NoEnv
 #MaxHotkeysPerInterval 99000000
 #HotkeyInterval 99000000
 #MaxThreadsPerHotkey 255
@@ -77,10 +77,10 @@ SetTimer % fn, -1000
 if ( CPS.Count() < cap)
 {
 random, chance, 1, max
-if (chance <= option)
+if chance between 1 and %option%
 {
-    click, 2
-    return
+msgbox, %chance%
+click, 2
 }
 else
 {
@@ -136,7 +136,7 @@ help:
 {
 msgbox, 32, Press Enter to Continue, If you are not getting many double clicks`, try increasing the register value from 0.12 to 0.15 and so on., 10
 msgbox, 32, Press Enter to Continue, Similarly`, if you have to hold the mouse button for too long in order for it to register as a hold`, try lowering it to 0.11., 12
-msgbox, 32, Press Enter to Continue,These settings vary depending on mouse model and debounce time., 7
+msgbox, 32, Press Enter to Continue, These settings vary depending on mouse model and input lag., 7
 msgbox, 32, Press Enter to Continue, The randomizer by default runs a random number from 1 to 3`, where if the number is 1 or 2`, you get a double click. And vice versa for single clicks., 14
 msgbox, 32, Press Enter to Continue, You can adjust this to your preference. (Default is 66`% chance.), 10
 msgbox, 32, Press Enter to Continue, The CPS cap depends on your RAW clicks (Physical clicks), 10
