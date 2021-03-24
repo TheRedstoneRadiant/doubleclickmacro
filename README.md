@@ -2,7 +2,7 @@
 # This program is designed for use with mice that do not double click. I am not responsible for any consequences caused by using the macro. Contact me for any queries @ Sylestic#9539 OR https://fiverr.com/RedstoneRadiant
 
 
-
+I have been noticing that windows defender flags this file, but this is due to the file not having a proper signature, therefore it considers the file malicous.
 https://www.virustotal.com/gui/file/ca87ea61aba62bcf818cc67041952e677b0b7c490c0f87d2618d82184aca312c/detection
 
 I have created this in order to fake having a double clicking mouse, specifically in Minecraft PVP where people often have them. This is a cost-free way to get one. I have made this in the programming language AutoHotkey and you may compile it yourself if that's what you prefer. Goodluck.
