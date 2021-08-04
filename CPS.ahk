@@ -31,7 +31,7 @@ Gui Add, Edit, x152 y206 w58 h21 vmax, 3
 Gui Add, Text, x32 y173 w222 h23 +0x200, Double Click Interval (Recommended 2 in 3)
 Gui Add, Button, x107 y259 w59 h23 ghelp, HELP
 Guicontrol, disable, stop
-Gui Show, w275 h293, Made by Sylestic#9539
+Gui Show, w275 h293, doubleclickmacro
 
 toggled = 0
 
@@ -141,7 +141,7 @@ msgbox, 32, Press Enter to Continue, You can adjust this to your preference. (De
 msgbox, 32, Press Enter to Continue, The CPS cap depends on your RAW clicks (Physical clicks), 10
 msgbox, 32, Press Enter to Continue, After reaching the cap`, your clicks are sent normally until you get under the cap again., 10
 msgbox, 32, Press Enter to Continue, A cap of 8 will likely result at 12 to 15 cps., 10
-msgbox, 48, REMINDER, Reminder: This program is designed for use with mice that do not double click. I am not responsible for any consequences caused by using the macro. Contact me for any queries @ Sylestic#9539 OR https://fiverr.com/RedstoneRadiant, 17
+msgbox, 48, REMINDER, Reminder: This program is designed for use with mice that do not double click. I am not responsible for any consequences caused by using the macro., 17
 return
 }
 
