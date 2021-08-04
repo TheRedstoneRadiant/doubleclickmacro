@@ -1,5 +1,3 @@
-# doubleclickmacro
-
 I have been noticing that windows defender flags this file due to the file not having a proper signature.
 https://www.virustotal.com/gui/file/ca87ea61aba62bcf818cc67041952e677b0b7c490c0f87d2618d82184aca312c/detection
 
