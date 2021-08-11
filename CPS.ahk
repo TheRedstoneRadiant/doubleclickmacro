@@ -24,11 +24,11 @@ Gui Add, Button, x17 y259 w80 h23 vstart gstart default, START
 Gui Add, Button, x175 y259 w80 h23 vstop gstop, STOP
 Gui Add, Edit, x73 y145 w120 h21 vtime, 0.12
 Gui Add, Text, x48 y99 w187 h23 +0x200, Seconds to wait before click registered 
-Gui Add, Text, x48 y119 w170 h23 +0x200, as held down (Recommended 0.12)
+Gui Add, Text, x48 y119 w170 h23 +0x200, as held down (0.12)
 Gui Add, Edit, x54 y206 w58 h21 voption, 2
 Gui, Add, Text, x128 y210 w10 h21, in
 Gui Add, Edit, x152 y206 w58 h21 vmax, 3
-Gui Add, Text, x32 y173 w222 h23 +0x200, Double Click Interval (Recommended 2 in 3)
+Gui Add, Text, x32 y173 w222 h23 +0x200, Double Click Interval (2 in 3)
 Gui Add, Button, x107 y259 w59 h23 ghelp, HELP
 Guicontrol, disable, stop
 Gui Show, w275 h293, doubleclickmacro
